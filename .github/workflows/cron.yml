@@ -1,9 +1,5 @@
 name: cron
 on: workflow_dispatch
-  push:
-    branches: [ main ]
-  schedule:
-  - cron: '1 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
